@@ -58,13 +58,16 @@ Battery type: LQ-S1
 |-|-|
 | MicroPython LCD display drivers | https://github.com/lbuque/lcd_binding_micropython |
 | M5Stack Core2 driver | https://github.com/lemariva/micropython-core2 |
-| AXP202 driver | https://github.com/lewisxhe/AXP202X_Library |
-| PCF853 driver | https://github.com/lewisxhe/PCF8563_Library |
+| AXP202 (C) | https://github.com/lewisxhe/AXP202X_Library |
+| PCF8563 (C) | https://github.com/lewisxhe/PCF8563_Library |
+| PCF8563 (Python) | https://github.com/lewisxhe/PCF8563_PythonLibrary |
+| PCF8563 (C) | https://github.com/tuupola/pcf8563 |
 | BMA423 driver | https://github.com/lewisxhe/BMA423_Library |
 | BMA423 driver | https://github.com/BoschSensortec/BMA423-Sensor-API |
 | BMA423 driver (smallest, not complete) | https://github.com/antirez/bma423-pure-mp |
 | ESP32 Himem PSRAM block device driver | [https://github.com/ondiiik/.../himem.c](https://github.com/ondiiik/micropython-espboards/blob/master/ports/esp32/boards/TWATCH_2020/drivers/himem.c) |
 | High Level PSRAM and HIMEM Data Structures for ESP32 | https://github.com/pschatzmann/esp32-psram |
+| MicroPython I2C driver for MPU9250 9-axis motion tracking device | https://github.com/tuupola/micropython-mpu9250 |
 
 
 ### Bluetooth
@@ -110,6 +113,7 @@ Battery type: LQ-S1
 | Simplex noise height map generator | https://github.com/todbot/CircuitPython_Noise/blob/main/noise.py |
 | Simplex noise height map generator | https://github.com/Factoid/SimplexNoise/blob/main/simplex.py |
 | Simplex noise height map generator | https://github.com/Adam-Gleave/simplex2d/blob/master/python/simplexnoise.py |
+| Noise 2D generator | https://github.com/xterminal86/noise2d |
 | Heightmap generator | https://github.com/sequenter/python-heightmap-generation |
 | Height/terrain generation - diamond square algorithm | https://janert.me/blog/2022/the-diamond-square-algorithm-for-terrain-generation |
 | Height/terrain generation - diamond square algorithm (fast) | https://github.com/adamkrawczyk/height-map-generator |
@@ -131,7 +135,15 @@ Battery type: LQ-S1
 | 3D software render engine | https://github.com/viteo/small3dlib |
 | 3D software render engine for embedded devices | https://github.com/fededevi/pingo |
 | 3D software renderer (fixed point math) | https://github.com/Ilya3point999K/RAL |
+| 3D Software Renderer written in C99, Low-Level, 8-bit Colored | https://github.com/LukasBanana/PicoRenderer |
 | 3D rendering of Planet Earth rotation for GBA | https://github.com/supercerealoso/GBA-3D-Earth |
+| 3D rendering - A brief computer graphics / rendering course | https://github.com/ssloy/tinyrenderer |
+| 3D rendering - Open World 3D Game Engine for the PicoSystem & RP2040 Microcontroller | https://github.com/bernhardstrobl/Pico3D |
+| 3D raycasting tutorial 1 (Wolfenstein-like) | https://lodev.org/cgtutor/raycasting.html |
+| 3D raycasting tutorial 2 (Wolfenstein-like) | https://lodev.org/cgtutor/raycasting2.html |
+| 3D raycasting tutorial 3 (Wolfenstein-like) | https://lodev.org/cgtutor/raycasting3.html |
+| 3D raycasting tutorial 4 (Wolfenstein-like) | https://lodev.org/cgtutor/raycasting4.html |
+| 3D raycast example | https://github.com/mattiasgustavsson/dos-like/blob/main/source/raycast.c |
 | TinyGL - subset of OpenGL | https://github.com/deeyi2000/TinyGL |
 | Software-rendered OpenGL ES | https://github.com/lunixbochs/tinygles |
 | TinyGL - a Small, Free and Fast Subset of OpenGL* | https://github.com/ska80/tinygl |
@@ -145,8 +157,6 @@ Battery type: LQ-S1
 | Voxel space | https://github.com/gustavopezzi/voxelspace |
 | Voxel space with SDL | https://github.com/gustavopezzi/voxelspace-sdl |
 | Mode7 in Python and Pygame | https://github.com/StanislavPetrovV/Mode7 |
-| Wolfenstein 3D using OpenGL | https://github.com/StanislavPetrovV/Wolfenstein-3D-Clone |
-| DOOM Clone. 3D Engine using Raylib and Binary Space Partitioning | https://github.com/StanislavPetrovV/DOOM-Clone |
 
 
 ### Example projects
@@ -163,14 +173,23 @@ Battery type: LQ-S1
 | Chess engine for MicroPython | https://github.com/jacklinquan/micropython-sunfish |
 | Chess engine online API | https://chess-api.com |
 | Chess engine for MCU (C code) | https://github.com/Gissio/mcu-max |
-| Doom fire effect | https://fabiensanglard.net/doom_fire_psx |
 | Apple BLE AirTag-clone | https://github.com/seemoo-lab/openhaystack |
 
+### Game examples
+
+| Name | URL |
+|-|-|
+| Wolfenstein 3D using OpenGL | https://github.com/StanislavPetrovV/Wolfenstein-3D-Clone |
+| DOOM style game in Python | https://github.com/StanislavPetrovV/DOOM-style-Game |
+| DOOM level viewer in Python | https://github.com/StanislavPetrovV/DOOM-Level-Viewer |
+| DOOM Clone. 3D Engine using Raylib and Binary Space Partitioning | https://github.com/StanislavPetrovV/DOOM-Clone |
+| Tetris in Python | | https://github.com/StanislavPetrovV/Tetris |
 
 ### Game assets
 
 | Name | URL |
 |-|-|
+| A wonderful list of Game Development resources | https://github.com/Kavex/GameDev-Resources |
 | Free | https://craftpix.net/freebies |
 | Free | https://opengameart.org |
 | Free | https://www.gameart2d.com/freebies.html |
@@ -219,6 +238,24 @@ Battery type: LQ-S1
 |-|-|
 | TinyVG software development kit | https://github.com/TinyVG/sdk |
 | Thor Vector Graphics is a lightweight portable library | https://github.com/thorvg/thorvg |
+| Image arithmetic tutorial | https://lodev.org/cgtutor/imagearithmetic.html |
+| Image filtering tutorial | https://lodev.org/cgtutor/filtering.html |
+| Line clipping tutorial | https://lodev.org/cgtutor/lineclipping.html |
+| Plasma effect tutorial | https://lodev.org/cgtutor/plasma.html |
+| Plasma implementation | https://github.com/mattiasgustavsson/dos-like/blob/main/source/plasma.c |
+| Plasma example | https://github.com/tuupola/esp_effects/blob/master/main/plasma.c |
+| Flood fill tutorial | https://lodev.org/cgtutor/floodfill.html |
+| Fire effect tutorial | https://lodev.org/cgtutor/fire.html |
+| Fire example | https://github.com/mattiasgustavsson/dos-like/blob/main/source/burn.c |
+| Doom fire effect | https://fabiensanglard.net/doom_fire_psx |
+| Doom fire effect | https://github.com/StanislavPetrovV/DOOM-Fire-Algorithm |
+| Fire effect for ESP | https://github.com/tuupola/esp_fire |
+| Tunnel effect tutorial | https://lodev.org/cgtutor/tunnel.html |
+| Tunnel example | https://github.com/mattiasgustavsson/dos-like/blob/main/source/tunnel.c |
+| Fourier tutorial | https://lodev.org/cgtutor/fourier.html |
+| Voxel example | https://github.com/mattiasgustavsson/dos-like/blob/main/source/voxel.c |
+| Meta-balls example | https://github.com/tuupola/esp_effects/blob/master/main/metaballs.c |
+
 
 ### Image conversion
 
