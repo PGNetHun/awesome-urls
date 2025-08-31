@@ -63,7 +63,7 @@ Battery type: LQ-S1
 | BMA423 driver | https://github.com/lewisxhe/BMA423_Library |
 | BMA423 driver | https://github.com/BoschSensortec/BMA423-Sensor-API |
 | BMA423 driver (smallest, not complete) | https://github.com/antirez/bma423-pure-mp |
-| ESP32 Himem PSRAM block device driver | https://github.com/ondiiik/micropython-espboards/blob/master/ports/esp32/boards/TWATCH_2020/drivers/himem.c |
+| ESP32 Himem PSRAM block device driver | [https://github.com/ondiiik/.../himem.c](https://github.com/ondiiik/micropython-espboards/blob/master/ports/esp32/boards/TWATCH_2020/drivers/himem.c) |
 | High Level PSRAM and HIMEM Data Structures for ESP32 | https://github.com/pschatzmann/esp32-psram |
 
 
@@ -364,7 +364,7 @@ Battery type: LQ-S1
 | Arduino iLBC Speech Codec | https://github.com/pschatzmann/arduino-libilbc |
 | Midi, MOD, MP3, Soundfont2 player (optimized for ESP32) | https://github.com/earlephilhower/ESP8266Audio |
 | RTSP-Audio (realtime server) | https://github.com/pschatzmann/Micro-RTSP-Audio |
-| Arduino audio encoders/decoders | https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio |
+| Arduino audio encoders/decoders | [https://github.com/pschatzmann/.../Encoding-and-Decoding-of-Audio](https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio) |
 
 #### QOA
 
@@ -492,22 +492,22 @@ Battery type: LQ-S1
 | Samsung TV remote control over Wifi - 3 | [https://github.com/openhab/openhab1-addons/.../org.openhab.binding.samsungtv](https://github.com/openhab/openhab1-addons/tree/main/bundles/binding/org.openhab.binding.samsungtv) |
 | Samsung TV remote control over Wifi - 4 | https://github.com/vrachieru/samsung-tv-api |
 | Samsung TV remote control over Wifi - 5 | https://github.com/xchwarze/samsung-tv-ws-api |
-| Samsung TV remote control over Wifi - 6 | https://github.com/balmli/com.samsung.smart/blob/master/drivers/Samsung/Samsung.js |
+| Samsung TV remote control over Wifi - 6 | [https://github.com/balmli/.../Samsung.js](https://github.com/balmli/com.samsung.smart/blob/master/drivers/Samsung/Samsung.js) |
 | Samsung TV remote control over Wifi - 7 | https://github.com/marysieek/samsung-tv-api |
 | Samsung TV remote control over Wifi - 8 | https://github.com/Ape/samsungctl/issues/75 |
 | Samsung TV remote control over Wifi - 9 | https://github.com/Toxblh/samsung-tv-control |
 | Samsung TV remote control over Wifi - 10 | https://github.com/dahuby/iobroker.samsung_tizen |
-| Samsung TV remote control over Wifi - 11 | https://github.com/tdudek/samsung-remote-models-2014-and-newer/tree/master/lib |
-| Samsung TV remote control over Wifi - 12 | [https://github.com/roberodin/ha-samsungtv-custom/.../samsungctl_080b/remote_websocket.py](https://github.com/roberodin/ha-samsungtv-custom/blob/master/custom_components/samsungtv_custom/samsungctl_080b/remote_websocket.py) |
-| Samsung TV remote control over Wifi - 13 | https://github.com/xchwarze/samsung-tv-ws-api/blob/master/samsungtvws/remote.py |
+| Samsung TV remote control over Wifi - 11 | [https://github.com/tdudek/.../lib](https://github.com/tdudek/samsung-remote-models-2014-and-newer/tree/master/lib) |
+| Samsung TV remote control over Wifi - 12 | [https://github.com/roberodin/ha-samsungtv-custom/.../remote_websocket.py](https://github.com/roberodin/ha-samsungtv-custom/blob/master/custom_components/samsungtv_custom/samsungctl_080b/remote_websocket.py) |
+| Samsung TV remote control over Wifi - 13 | [https://github.com/xchwarze/.../remote.py](https://github.com/xchwarze/samsung-tv-ws-api/blob/master/samsungtvws/remote.py) |
 | Samsung TV - Key IDs - 1 | https://github.com/Toxblh/samsung-tv-control/blob/master/src/keys.ts |
 | Samsung TV - Key IDs - 2 | https://github.com/stephensli/samsung-tv-api/blob/main/docs/KEY_CODES.md |
-| Samsung TV - App IDs - 1 | https://github.com/tavicu/homebridge-samsung-tizen/wiki/Applications#newer-tvs-model-year--2020 |
+| Samsung TV - App IDs - 1 | [https://github.com/tavicu/...#newer-tvs-model-year--2020](https://github.com/tavicu/homebridge-samsung-tizen/wiki/Applications#newer-tvs-model-year--2020) |
 | Samsung TV - App IDs - 2 | https://github.com/tavicu/homebridge-samsung-tizen/wiki/Applications |
 | Samsung TV - App IDs - 3 | https://github.com/tavicu/homebridge-samsung-tizen/issues/325 |
 | Samsung TV - App IDs - 4 | https://github.com/Toxblh/samsung-tv-control/blob/master/src/apps.ts |
 | Samsung TV - Show message box on TV - 1 | https://github.com/shantanugoel/samsung-messagebox |
-| Samsung Remote Control - SmartView SDK JS library | https://developer.samsung.com/smarttv/develop/extension-libraries/smart-view-sdk/download.html |
+| Samsung Remote Control - SmartView SDK JS library | [https://developer.samsung.com/.../download.html](https://developer.samsung.com/smarttv/develop/extension-libraries/smart-view-sdk/download.html) |
 | Samsung Remote Control | https://github.com/kdschlosser/samsungctl |
 | Sony TV remote control over Wifi - 1 | [https://shop.kindermann.de/.../01_Anleitungen+Doku/Steuerungsprotokoll_1.pdf](https://shop.kindermann.de/erp/KCO/avs/3/3005/3005000168/01_Anleitungen+Doku/Steuerungsprotokoll_1.pdf) |
 | LG webOS TV remote control over Wifi - 1 | https://github.com/home-assistant-libs/aiowebostv |
@@ -548,7 +548,7 @@ Battery type: LQ-S1
 |-|-|
 | GPS | https://github.com/inmcm/micropyGPS |
 | GPS async | https://github.com/peterhinch/micropython-async/blob/master/v3/docs/GPS.md |
-| L76K GPS | https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/blob/master/examples/BasicUnit/TwatcV2Special/GPSDisplay/GPSDisplay.ino |
+| L76K GPS | [https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/.../GPSDisplay.ino](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/blob/master/examples/BasicUnit/TwatcV2Special/GPSDisplay/GPSDisplay.ino) |
 | L76K GPS | https://www.waveshare.com/wiki/L76K_GPS_Module |
 | GPS - improve coldstart speed | https://github.com/andrethemac/L76GLNSV4/issues/10 |
 | OpenStreetMap to Garmin map converter | https://github.com/openstreetmap/mkgmap |
@@ -556,8 +556,8 @@ Battery type: LQ-S1
 | OpenStreetMap PBF format | https://wiki.openstreetmap.org/wiki/PBF_Format |
 | Hungary maps | http://download.geofabrik.de/europe/hungary.html |
 | Graphhopper Maps - online map route editor, export to GPX | https://graphhopper.com/maps |
-| Google Maps Route - encoded polyline algorithm | https://developers.google.com/maps/documentation/utilities/polylinealgorithm |
-| Google Maps Route - encoded polyline decoder | https://github.com/geodav-tech/decode-google-maps-polyline/blob/master/polyline_decoder.py |
+| Google Maps Route - encoded polyline algorithm | [https://developers.google.com/.../polylinealgorithm](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) |
+| Google Maps Route - encoded polyline decoder | [https://github.com/geodav-tech/.../polyline_decoder.py](https://github.com/geodav-tech/decode-google-maps-polyline/blob/master/polyline_decoder.py) |
 
 
 ### QR codes
@@ -572,7 +572,7 @@ Battery type: LQ-S1
 
 | Name | URL |
 |-|-|
-| HTTP2 pure Python implementation (simple) | https://github.com/Chaosed0/http2py |
+| HTTP2 partial pure Python implementation | https://github.com/Chaosed0/http2py |
 | HTTP2 library | https://github.com/tokers/requests-http2-adapter/tree/master/http2_adapter |
 | A small async DNS client for MicroPython | https://github.com/vshymanskyy/aiodns |
 | FTP | https://github.com/robert-hh/FTP-Server-for-ESP8266-ESP32-and-PYBD |
@@ -582,12 +582,11 @@ Battery type: LQ-S1
 
 | Name | URL |
 |-|-|
-| Awesome MicroPython resources, libraries | https://github.com/mcauser/awesome-micropython |
-| Awesome single file libs | https://github.com/r-lyeh/single_file_libs |
-| Awesome single file libs | https://github.com/yui0/slibs |
 | stb single-file public domain libraries for C/C++ | https://github.com/nothings/stb |
+| Awesome single file libs | https://github.com/r-lyeh/single_file_libs |
 | Single file libraries for C/C++ | https://github.com/yui0/slibs |
 | A curated list of awesome header-only C++ libraries | https://github.com/p-ranav/awesome-hpp |
+| Awesome MicroPython resources, libraries | https://github.com/mcauser/awesome-micropython |
 
 ### Others
 
