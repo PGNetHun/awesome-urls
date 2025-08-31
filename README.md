@@ -25,7 +25,7 @@ Battery type: LQ-S1
 | t-watch2020-esp32-with-micropython | https://gitlab.com/mooond/t-watch2020-esp32-with-micropython |
 | T-Watch-2020 Micropython | https://github.com/ondiiik/micropython-espboards |
 | T-Watch-Projects | https://github.com/projetsdiy/T-Watch-Projects |
-| LilyGO T-Watch V3 Microphone | https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/tree/master/examples/BasicUnit/TwatcV3Special/Microphone |
+| LilyGO T-Watch V3 Microphone | [https://github.com/Xinyuan-LilyGO/.../TwatcV3Special/Microphone](https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/tree/master/examples/BasicUnit/TwatcV3Special/Microphone) |
 | C64 Watch | https://github.com/nickbild/c64_watch_sync |
 
 
