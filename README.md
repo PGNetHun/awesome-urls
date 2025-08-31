@@ -68,6 +68,7 @@ Battery type: LQ-S1
 | ESP32 Himem PSRAM block device driver | [https://github.com/ondiiik/.../himem.c](https://github.com/ondiiik/micropython-espboards/blob/master/ports/esp32/boards/TWATCH_2020/drivers/himem.c) |
 | High Level PSRAM and HIMEM Data Structures for ESP32 | https://github.com/pschatzmann/esp32-psram |
 | MicroPython I2C driver for MPU9250 9-axis motion tracking device | https://github.com/tuupola/micropython-mpu9250 |
+| MicroPython sync/async drivers for VS1053b | https://github.com/peterhinch/micropython-vs1053 |
 
 
 ### Bluetooth
@@ -106,6 +107,7 @@ Battery type: LQ-S1
 | Simple, Minimalistic, Fixed-point in-place Fast Fourier Transform | https://github.com/yui0/slibs/blob/master/ifft.h |
 | Simple, Minimalistic, Fast Fourier Transform | https://github.com/yui0/slibs/blob/master/fft.h |
 | Simple, Minimalistic, Fast math library | https://github.com/yui0/slibs/blob/master/fmath.h |
+| Integer and fixed point square root functions using only add, subtract and shifts | https://github.com/chmike/fpsqrt |
 | Voxel map generator (Perlin noise) | https://gist.github.com/samneggs/0b3890eaf219e24c3676fd7861de64e4#file-noisematrix-py-L71 |
 | Voxel map generator (Perlin noise) | https://github.com/pvigier/perlin-numpy/blob/master/perlin_numpy/perlin2d.py#L8 |
 | Perlin noise | https://github.com/FuzzyCat444/PerlinTest/blob/master/main.cpp |
@@ -173,6 +175,8 @@ Battery type: LQ-S1
 | Chess engine for MicroPython | https://github.com/jacklinquan/micropython-sunfish |
 | Chess engine online API | https://chess-api.com |
 | Chess engine for MCU (C code) | https://github.com/Gissio/mcu-max |
+| A full featured chess engine designed to fit in an embedded environment, using less than 2K of RAM! | https://github.com/ripred/MicroChess |
+| MicroPython Sunfish Chess Engine with API | https://github.com/peterhinch/micropython-sunfish |
 | Apple BLE AirTag-clone | https://github.com/seemoo-lab/openhaystack |
 
 ### Game examples
@@ -306,6 +310,7 @@ Battery type: LQ-S1
 | PNG - Lossy compression | https://github.com/foobaz/pngloss |
 | PNG crush optimization | https://github.com/Kjuly/pngcrush |
 | PNG optimization | https://github.com/chrissimpkins/Crunch |
+| Super fast C++ .PNG writer/reader | https://github.com/richgel999/fpng |
 
 #### JPEG
 
@@ -357,6 +362,7 @@ Battery type: LQ-S1
 | GIF decoder | https://github.com/miniupnp/ngiflib |
 | GIF decoder | https://github.com/bitbank2/AnimatedGIF |
 | GIF decoder | https://github.com/lecram/gifdec |
+| GIF encoder | https://github.com/lecram/gifenc |
 
 
 ### Audio
@@ -402,6 +408,9 @@ Battery type: LQ-S1
 | Midi, MOD, MP3, Soundfont2 player (optimized for ESP32) | https://github.com/earlephilhower/ESP8266Audio |
 | RTSP-Audio (realtime server) | https://github.com/pschatzmann/Micro-RTSP-Audio |
 | Arduino audio encoders/decoders | [https://github.com/pschatzmann/.../Encoding-and-Decoding-of-Audio](https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio) |
+| Simple audio resampler targeting embedded systems | https://github.com/dbry/audio-resampler |
+| Simple, Minimalistic, WMA decoder based on libwma | https://github.com/yui0/slibs/blob/master/uwma.h |
+| Simple, Minimalistic, AAC decoder | https://github.com/yui0/slibs/blob/master/uaac.h |
 
 #### QOA
 
@@ -446,8 +455,10 @@ Battery type: LQ-S1
 | MP3 to MIDI AI converter | https://ai-midi.com |
 | SFZ/SF2 Player CLAP plugin for Linux | https://github.com/stevefolta/sfzq |
 | Quick music synth | https://github.com/lecram/qms |
+| Mozzi - sound synthesis library for Arduino | https://github.com/sensorium/Mozzi |
 | Online ADSR (carrier + modulator) test | https://nishaya.github.io/my-first-fm |
 | ADSR timings in C-64 | https://www.c64-wiki.com/wiki/ADSR |
+| Convert MIDI files to a simplified time-ordered sequence of note commands | https://github.com/LenShustek/miditones |
 
 
 #### MOD, S3M, XM tracker music
@@ -519,6 +530,8 @@ Battery type: LQ-S1
 | LZ4 compression | https://github.com/lz4/lz4/blob/dev/lib/lz4.c |
 | Single-file LZ4 decoder in C header | https://github.com/nigeltao/sflz4 |
 | An embedded-friendly, adjusted-binary LZW compressor / decompressor | https://github.com/dbry/lzw-ab |
+| miniz: Single C source file zlib-replacement library | https://github.com/richgel999/miniz |
+| Lossless data compression codec with LZMA-like ratios but 1.5x-8x faster decompression speed, C/C++ | https://github.com/richgel999/lzham_codec |
 
 ### Remote control
 
@@ -594,7 +607,7 @@ Battery type: LQ-S1
 | Hungary maps | http://download.geofabrik.de/europe/hungary.html |
 | Graphhopper Maps - online map route editor, export to GPX | https://graphhopper.com/maps |
 | Google Maps Route - encoded polyline algorithm | [https://developers.google.com/.../polylinealgorithm](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) |
-| Google Maps Route - encoded polyline decoder | [https://github.com/geodav-tech/.../polyline_decoder.py](https://github.com/geodav-tech/decode-google-maps-polyline/blob/master/polyline_decoder.py) |
+| Google Maps Route - encoded polyline decoder | https://github.com/geodav-tech/decode-google-maps-polyline |
 
 
 ### QR codes
@@ -603,6 +616,7 @@ Battery type: LQ-S1
 |-|-|
 | HTML5 QR code scanner | https://github.com/mebjas/html5-qrcode |
 | QR code generator | https://github.com/ricmoo/QRCode |
+| QR code generator | https://github.com/yui0/slibs/blob/master/qrcodegen.h |
 
 
 ### Network - socket, HTTP/2, etc...
@@ -616,6 +630,7 @@ Battery type: LQ-S1
 | fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2 | https://github.com/encode/httpx |
 | Small, fast HTTP client library for Python | https://github.com/httplib2/httplib2 |
 | A small async DNS client for MicroPython | https://github.com/vshymanskyy/aiodns |
+| NTP client for micropython using uasyncio | https://github.com/wieck/micropython-ntpclient |
 | FTP | https://github.com/robert-hh/FTP-Server-for-ESP8266-ESP32-and-PYBD |
 | Simple NodeJS HTTP2 static server | https://dexecure.com/blog/how-to-create-http2-static-file-server-nodejs-with-examples |
 
@@ -639,6 +654,9 @@ Battery type: LQ-S1
 | Awesome Electronics Engineering | https://github.com/SergioGasquez/awesome-electronic-engineering |
 | Awesome Python | https://github.com/vinta/awesome-python |
 | Awesome C++ | https://github.com/fffaraz/awesome-cpp |
+| Awesome single-file libraries | https://github.com/yui0/slibs |
+| Awesome WebAssembly | https://github.com/vshymanskyy/awesome-wasm-tools |
+| Awesome MCP servers (AI) | https://github.com/punkpeye/awesome-mcp-servers |
 
 
 ### Others
@@ -659,6 +677,9 @@ Battery type: LQ-S1
 | Machine Learning inference engine for Microcontrollers and Embedded devices | https://github.com/emlearn/emlearn |
 | ext2/ext3/ext4 filesystem library for microcontrollers | https://github.com/gkostka/lwext4 |
 | ESP32 NAT Router Extended | https://github.com/dchristl/esp32_nat_router_extended |
+| Translates WebAssembly modules to portable C | https://github.com/turbolent/w2c2 |
+| Convert WebAssembly files to C source and header | https://github.com/WebAssembly/wabt/tree/main/wasm2c |
+| File system and archive abstraction library in C | https://github.com/mackron/fs |
 
 
 ### Others - MicroPython
@@ -670,6 +691,8 @@ Battery type: LQ-S1
 | MicroPython Libraries | https://github.com/pfalcon/pycopy-lib |
 | MicroPython stubs | https://github.com/Josverl/micropython-stubs |
 | MicroPython usermod C modules | https://micropython-usermod.readthedocs.io/en/latest/index.html |
+| ViperIDE - MicroPython online IDE | https://github.com/vshymanskyy/ViperIDE |
+| Asynchronous programming in MicroPython | https://github.com/peterhinch/micropython-async/blob/master/v3/README.md |
 | MicroPython FFT (Viper) | https://github.com/bixb922/viper-examples/blob/main/signal_processing/fft_int.py |
 | MicroPython Viper Performance doc | https://github.com/micropython/micropython/wiki/Improving-performance-with-Viper-code |
 | MicroPython WebServer with PicoWeb | https://icircuit.net/make-esp32-http-webserver-using-micropython/2152 |
@@ -680,3 +703,5 @@ Battery type: LQ-S1
 | Compile WebAssembly to native MicroPython modules | https://github.com/vshymanskyy/wasm2mpy |
 | ESP32 ULP Co-Processor toolchain implemented in MicroPython | https://github.com/micropython/micropython-esp32-ulp |
 | A lightweight MicroPython GUI library for display drivers based on framebuf class | https://github.com/peterhinch/micropython-nano-gui |
+| Compile WebAssembly to native MicroPython modules | https://github.com/vshymanskyy/wasm2mpy |
+| Python asyncio IMAP4rev1 client library | https://github.com/iroco-co/aioimaplib |
