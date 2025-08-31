@@ -88,7 +88,7 @@ Battery type: LQ-S1
 | Bluetooth - GATT file transfer - performance | https://interrupt.memfault.com/blog/ble-throughput-primer |
 | Bluetooth - GATT file transfer - performance | https://novelbits.io/bluetooth-5-speed-maximum-throughput |
 | ATT and GATT | https://novelbits.io/bluetooth-le-att-gatt-explained-connection-oriented-communication |
-| Apple phone bluetooth notifications - BLE ANCS | [https://developer.apple.com/.../CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification](https://developer.apple.com/library/archive/documentation/CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification/Specification/Specification.html) |
+| Apple phone bluetooth notifications - BLE ANCS | [https://developer.apple.com/.../AppleNotificationCenterServiceSpecification](https://developer.apple.com/library/archive/documentation/CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification/Specification/Specification.html) |
 | Bluetooth GATT explained | https://novelbits.io/bluetooth-le-att-gatt-explained-connection-oriented-communication |
 | MicroPython - Bluetooth - aioble example | https://www.mongodb.com/developer/languages/cpp/turn-ble |
 | Bluetooth explanation | https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide |
@@ -233,10 +233,34 @@ Battery type: LQ-S1
 
 | Name | URL |
 |-|-|
+| BPG library | https://github.com/mirrorer/libbpg |
+| FUIF - Free Universal Image Format | https://github.com/cloudinary/fuif |
+| Wavelet image compression | https://iquilezles.org/articles/wavelet |
+| RPK - Fast, lossless image compression format | https://github.com/quintopia/RPK |
+| SFALIC - Simple Fast and Adaptive Lossless Image Compression algorithm | https://github.com/bigfug/fugio-sfalic |
+| SQZ - Low complexity, scalable lossless and lossy image compression library | https://github.com/MarcioPais/SQZ |
+| Fox - Lossless image format | https://github.com/fencl/fox |
+| Progressive, error tolerant, wavelet-based image compression algorithm | https://github.com/TheRealOrange/icer_compression |
+| FLIC/FLV (Autodesk) animation decoder (Go language) | https://github.com/yutopp/go-flv |
+| FLIC/FLV decoder (C++) | https://github.com/aseprite/flic |
+| FLIC/FLV files | http://cd.textfiles.com/animfestival/ANIMATE |
+| FLIC/FLV files | http://cd.textfiles.com/10000soundssongs/FLI |
+| FLIC/FLV files | http://cd.textfiles.com/vgaspectrum/animate/fli |
+
+
+#### QOI
+
+| Name | URL |
+|-|-|
 | Quite OK Image (QOI) format | https://qoiformat.org |
 | QOI code | https://github.com/phoboslab/qoi |
 | QOI alternative decoder | https://github.com/skeeto/scratch/blob/master/parsers/qoi.c |
 | Simplified QOI Codec | https://github.com/Aftersol/Simplified-QOI-Codec |
+
+#### PNG
+
+| Name | URL |
+|-|-|
 | PNG-LE | https://github.com/vpaeder/lv_pngle |
 | tPNG decoder | https://github.com/jcorks/tPNG |
 | RDO-PNG - PNG optimizer | https://github.com/richgel999/rdopng |
@@ -245,9 +269,11 @@ Battery type: LQ-S1
 | PNG - Lossy compression | https://github.com/foobaz/pngloss |
 | PNG crush optimization | https://github.com/Kjuly/pngcrush |
 | PNG optimization | https://github.com/chrissimpkins/Crunch |
-| JPEG XL reference implementation | https://github.com/libjxl/libjxl |
-| JPEG XL modular mode explained | https://cloudinary.com/blog/jpeg-xls-modular-mode-explained |
-| JPEG XL decoder | https://github.com/lifthrasiir/j40 |
+
+#### JPEG
+
+| Name | URL |
+|-|-|
 | JPEG decoder - optimized | https://github.com/bitbank2/JPEGDEC |
 | JPEG decoder | https://github.com/Bodmer/JPEGDecoder |
 | JPEG decoder | https://github.com/Bodmer/TJpg_Decoder |
@@ -268,27 +294,32 @@ Battery type: LQ-S1
 | JPEG writer - Simple, Minimalistic | https://www.jonolick.com/uploads/7/9/2/1/7921194/jo_jpeg.cpp |
 | JPEG decoder | https://github.com/daniel-falk/ujpeg |
 | JPEG encoder - Arduino | https://github.com/bitbank2/JPEGENC |
+
+#### JPEG XL
+
+| Name | URL |
+|-|-|
+| JPEG XL reference implementation | https://github.com/libjxl/libjxl |
+| JPEG XL modular mode explained | https://cloudinary.com/blog/jpeg-xls-modular-mode-explained |
+| JPEG XL decoder | https://github.com/lifthrasiir/j40 |
+
+#### WebP
+
+| Name | URL |
+|-|-|
 | WebP (lossless) - GOOD! | https://github.com/fencl/whale |
 | WebP (lossy) decoder - single header file - GOOD! | https://github.com/MikuAuahDark/simplewebp |
 | WebP (bad code, not maintained) | https://github.com/matanui159/jebp |
 | WebP decoder | https://github.com/junka/ffpic/blob/main/format/webp.c |
 | WebP library | https://github.com/peter-iakovlev/libwebp |
+
+#### GIF
+
+| Name | URL |
+|-|-|
 | GIF decoder | https://github.com/miniupnp/ngiflib |
 | GIF decoder | https://github.com/bitbank2/AnimatedGIF |
 | GIF decoder | https://github.com/lecram/gifdec |
-| BPG library | https://github.com/mirrorer/libbpg |
-| FUIF - Free Universal Image Format | https://github.com/cloudinary/fuif |
-| Wavelet image compression | https://iquilezles.org/articles/wavelet |
-| RPK - Fast, lossless image compression format | https://github.com/quintopia/RPK |
-| SFALIC - Simple Fast and Adaptive Lossless Image Compression algorithm | https://github.com/bigfug/fugio-sfalic |
-| SQZ - Low complexity, scalable lossless and lossy image compression library | https://github.com/MarcioPais/SQZ |
-| Fox - Lossless image format | https://github.com/fencl/fox |
-| Progressive, error tolerant, wavelet-based image compression algorithm | https://github.com/TheRealOrange/icer_compression |
-| FLIC/FLV (Autodesk) animation decoder (Go language) | https://github.com/yutopp/go-flv |
-| FLIC/FLV decoder (C++) | https://github.com/aseprite/flic |
-| FLIC/FLV files | http://cd.textfiles.com/animfestival/ANIMATE |
-| FLIC/FLV files | http://cd.textfiles.com/10000soundssongs/FLI |
-| FLIC/FLV files | http://cd.textfiles.com/vgaspectrum/animate/fli |
 
 
 ### Audio
@@ -298,11 +329,6 @@ Battery type: LQ-S1
 | MicroPython I2S sound | http://www.ece.tufts.edu/en/1EK/textbook/sec_i2s.html |
 | MicroPython I2S sound | https://github.com/lemariva/uPyM5Echo/blob/master/main.py |
 | MicroPython I2S sound | https://github.com/lemariva/micropython-core2/issues/6 |
-| Quite OK Audio (QOA) format | https://qoaformat.org |
-| Quite OK Audio (QOA) github | https://github.com/phoboslab/qoa |
-| Quite OK Audio (QOA) decoder for microcontrollers | https://github.com/ayuusweetfish/uQOA |
-| Turbo-QOA | https://github.com/marty1885/turboqoa |
-| Sea Codec (based on QOA) | https://github.com/Daninet/sea-codec |
 | Codec2 - low bit rate speech codec by David Rowe | https://github.com/drowe67/codec2 |
 | Codec2 - development repo | https://github.com/drowe67/codec2-dev |
 | Codec2 - ESP32 implementation | https://github.com/sh123/esp32_codec2_arduino |
@@ -337,10 +363,19 @@ Battery type: LQ-S1
 | Audio playback and capture library written in C, in a single source file | https://github.com/pschatzmann/miniaudio |
 | Arduino iLBC Speech Codec | https://github.com/pschatzmann/arduino-libilbc |
 | Midi, MOD, MP3, Soundfont2 player (optimized for ESP32) | https://github.com/earlephilhower/ESP8266Audio |
-| Online ADSR (carrier + modulator) test | https://nishaya.github.io/my-first-fm |
-| ADSR timings in C-64 | https://www.c64-wiki.com/wiki/ADSR |
 | RTSP-Audio (realtime server) | https://github.com/pschatzmann/Micro-RTSP-Audio |
 | Arduino audio encoders/decoders | https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio |
+
+#### QOA
+
+| Name | URL |
+|-|-|
+| Quite OK Audio (QOA) format | https://qoaformat.org |
+| Quite OK Audio (QOA) github | https://github.com/phoboslab/qoa |
+| Quite OK Audio (QOA) decoder for microcontrollers | https://github.com/ayuusweetfish/uQOA |
+| Turbo-QOA | https://github.com/marty1885/turboqoa |
+| Sea Codec (based on QOA) | https://github.com/Daninet/sea-codec |
+
 
 #### MP3
 
@@ -374,6 +409,8 @@ Battery type: LQ-S1
 | MP3 to MIDI AI converter | https://ai-midi.com |
 | SFZ/SF2 Player CLAP plugin for Linux | https://github.com/stevefolta/sfzq |
 | Quick music synth | https://github.com/lecram/qms |
+| Online ADSR (carrier + modulator) test | https://nishaya.github.io/my-first-fm |
+| ADSR timings in C-64 | https://www.c64-wiki.com/wiki/ADSR |
 
 
 #### MOD, S3M, XM tracker music
