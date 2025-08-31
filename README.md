@@ -1,6 +1,6 @@
 # Awesome URLs
 
-#### T-Watch-2020
+### T-Watch-2020
 
 Battery type: LQ-S1
 
@@ -29,7 +29,7 @@ Battery type: LQ-S1
 | C64 Watch | https://github.com/nickbild/c64_watch_sync |
 
 
-#### LVGL (GUI library)
+### LVGL (GUI library)
 
 | Name | URL |
 |-|-|
@@ -52,8 +52,10 @@ Battery type: LQ-S1
 | LVGL Fonts converter (TTF/WOFF/OTF) | https://github.com/lvgl/lv_font_conv |
 | LVGL Builder | https://github.com/CURTLab/LVGLBuilder |
 
-#### Drivers
+### Drivers
 
+| Name | URL |
+|-|-|
 | MicroPython LCD display drivers | https://github.com/lbuque/lcd_binding_micropython |
 | M5Stack Core2 driver | https://github.com/lemariva/micropython-core2 |
 | AXP202 driver | https://github.com/lewisxhe/AXP202X_Library |
@@ -65,7 +67,7 @@ Battery type: LQ-S1
 | High Level PSRAM and HIMEM Data Structures for ESP32 | https://github.com/pschatzmann/esp32-psram |
 
 
-#### Bluetooth
+### Bluetooth
 
 | Name | URL |
 |-|-|
@@ -92,7 +94,7 @@ Battery type: LQ-S1
 | Bluetooth explanation | https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide |
 
 
-#### Math
+### Math
 
 | Name | URL |
 |-|-|
@@ -117,7 +119,7 @@ Battery type: LQ-S1
 | Maze generator (single-header C file) | https://github.com/blastbay/mazelib/blob/master/mazelib.h |
 | Path finder and A* solver | https://github.com/leethomason/MicroPather |
 
-#### 3D
+### 3D
 
 | Name | URL |
 |-|-|
@@ -147,7 +149,7 @@ Battery type: LQ-S1
 | DOOM Clone. 3D Engine using Raylib and Binary Space Partitioning | https://github.com/StanislavPetrovV/DOOM-Clone |
 
 
-#### Example projects
+### Example projects
 
 | Name | URL |
 |-|-|
@@ -165,7 +167,7 @@ Battery type: LQ-S1
 | Apple BLE AirTag-clone | https://github.com/seemoo-lab/openhaystack |
 
 
-#### Game assets
+### Game assets
 
 | Name | URL |
 |-|-|
@@ -187,7 +189,7 @@ Battery type: LQ-S1
 | Submarine kit | https://opengameart.org/content/sea-and-underwater-assets |
 | Country flags | https://github.com/hampusborgos/country-flags |
 
-#### Interactive Fiction games
+### Interactive Fiction games
 
 | Name | Url |
 |-|-|
@@ -197,28 +199,28 @@ Battery type: LQ-S1
 | Interactive Fiction games archive | https://ifarchive.org |
 | Interactive Fiction games database | https://ifdb.org |
 
-#### LUA
+### LUA
 
 | Name | Url |
 |-|-|
 | eLua Project on GitHub | https://github.com/elua/elua |
 | Single-file port of Lua, a powerful scripting language | https://github.com/edubart/minilua |
 
-#### GO
+### GO
 
 | Name | URL |
 |-|-|
 | Emgo: Bare metal Go (language for programming embedded systems) | https://github.com/ziutek/emgo |
 | Embedded Go tools | https://github.com/embeddedgo/tools |
 
-#### Graphics
+### Graphics
 
 | Name | URL |
 |-|-|
 | TinyVG software development kit | https://github.com/TinyVG/sdk |
 | Thor Vector Graphics is a lightweight portable library | https://github.com/thorvg/thorvg |
 
-#### Image conversion
+### Image conversion
 
 | Name | URL |
 |-|-|
@@ -227,7 +229,7 @@ Battery type: LQ-S1
 | PNG quant | https://github.com/kornelski/pngquant |
 | Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently | https://github.com/joye61/pic-smaller |
 
-#### Image
+### Image
 
 | Name | URL |
 |-|-|
@@ -289,7 +291,7 @@ Battery type: LQ-S1
 | FLIC/FLV files | http://cd.textfiles.com/vgaspectrum/animate/fli |
 
 
-#### Audio
+### Audio
 
 | Name | URL |
 |-|-|
@@ -340,7 +342,7 @@ Battery type: LQ-S1
 | RTSP-Audio (realtime server) | https://github.com/pschatzmann/Micro-RTSP-Audio |
 | Arduino audio encoders/decoders | https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio |
 
-##### MP3
+#### MP3
 
 | Name | URL |
 |-|-|
@@ -358,7 +360,7 @@ Battery type: LQ-S1
 | A simple mp3 encoder (not only) for Arduino using LAME | https://github.com/pschatzmann/arduino-liblame |
 | A simple mp3 decoder (not only) for Arduino using libmad | https://github.com/pschatzmann/arduino-libmad |
 
-##### MIDI
+#### MIDI
 
 | Name | URL |
 |-|-|
@@ -374,7 +376,7 @@ Battery type: LQ-S1
 | Quick music synth | https://github.com/lecram/qms |
 
 
-##### MOD, S3M, XM tracker music
+#### MOD, S3M, XM tracker music
 | Name | URL |
 |-|-|
 | MOD music tracker file format - sample extractor | https://github.com/dbrookman/trackrip |
@@ -384,7 +386,7 @@ Battery type: LQ-S1
 | MOD player | https://github.com/Artefact2/libxm |
 
 
-##### Text-to-Speech
+#### Text-to-Speech
 
 | Name | URL |
 |-|-|
@@ -403,7 +405,7 @@ Battery type: LQ-S1
 | A simple TTS solution based on pre-recorded audio | https://github.com/pschatzmann/arduino-simple-tts |
 | A small fast portable speech synthesis system | https://github.com/pschatzmann/arduino-flite |
 
-##### Audio file sources
+#### Audio file sources
 
 | Name | URL |
 |-|-|
@@ -415,7 +417,7 @@ Battery type: LQ-S1
 | GeneralUser GM SoundFont2 files | https://schristiancollins.com/generaluser.php |
 | A General MIDI SoundFont with a low memory footprint | https://github.com/mrbumpy409/GeneralUser-GS |
 
-#### Video, other media
+### Video, other media
 
 | Name | Url |
 |-|-|
@@ -425,7 +427,7 @@ Battery type: LQ-S1
 | Single file C library for decoding MPEG1 Video and MP2 Audio | https://github.com/phoboslab/pl_mpeg |
 
 
-#### Fonts, TTF
+### Fonts, TTF
 
 | Name | URL |
 |-|-|
@@ -435,7 +437,7 @@ Battery type: LQ-S1
 | TTF font render support library for microcomputer | https://github.com/takkaO/OpenFontRender |
 | Font recognize | https://www.whatfontis.com |
 
-#### Compression
+### Compression
 
 | Name | URL |
 |-|-|
@@ -444,13 +446,13 @@ Battery type: LQ-S1
 | Single-file LZ4 decoder in C header | https://github.com/nigeltao/sflz4 |
 | An embedded-friendly, adjusted-binary LZW compressor / decompressor | https://github.com/dbry/lzw-ab |
 
-#### Remote control
+### Remote control
 
 | Name | URL |
 |-|-|
 | Samsung TV remote control over Wifi - 1 | https://github.com/Ape/samsungctl |
 | Samsung TV remote control over Wifi - 2 (+keycodes) | https://github.com/Bntdumas/SamsungIPRemote |
-| Samsung TV remote control over Wifi - 3 | https://github.com/openhab/openhab1-addons/tree/main/bundles/binding/org.openhab.binding.samsungtv |
+| Samsung TV remote control over Wifi - 3 | [https://github.com/openhab/openhab1-addons/.../org.openhab.binding.samsungtv](https://github.com/openhab/openhab1-addons/tree/main/bundles/binding/org.openhab.binding.samsungtv) |
 | Samsung TV remote control over Wifi - 4 | https://github.com/vrachieru/samsung-tv-api |
 | Samsung TV remote control over Wifi - 5 | https://github.com/xchwarze/samsung-tv-ws-api |
 | Samsung TV remote control over Wifi - 6 | https://github.com/balmli/com.samsung.smart/blob/master/drivers/Samsung/Samsung.js |
@@ -459,7 +461,7 @@ Battery type: LQ-S1
 | Samsung TV remote control over Wifi - 9 | https://github.com/Toxblh/samsung-tv-control |
 | Samsung TV remote control over Wifi - 10 | https://github.com/dahuby/iobroker.samsung_tizen |
 | Samsung TV remote control over Wifi - 11 | https://github.com/tdudek/samsung-remote-models-2014-and-newer/tree/master/lib |
-| Samsung TV remote control over Wifi - 12 | https://github.com/roberodin/ha-samsungtv-custom/blob/master/custom_components/samsungtv_custom/samsungctl_080b/remote_websocket.py |
+| Samsung TV remote control over Wifi - 12 | [https://github.com/roberodin/ha-samsungtv-custom/.../samsungctl_080b/remote_websocket.py](https://github.com/roberodin/ha-samsungtv-custom/blob/master/custom_components/samsungtv_custom/samsungctl_080b/remote_websocket.py) |
 | Samsung TV remote control over Wifi - 13 | https://github.com/xchwarze/samsung-tv-ws-api/blob/master/samsungtvws/remote.py |
 | Samsung TV - Key IDs - 1 | https://github.com/Toxblh/samsung-tv-control/blob/master/src/keys.ts |
 | Samsung TV - Key IDs - 2 | https://github.com/stephensli/samsung-tv-api/blob/main/docs/KEY_CODES.md |
@@ -470,14 +472,14 @@ Battery type: LQ-S1
 | Samsung TV - Show message box on TV - 1 | https://github.com/shantanugoel/samsung-messagebox |
 | Samsung Remote Control - SmartView SDK JS library | https://developer.samsung.com/smarttv/develop/extension-libraries/smart-view-sdk/download.html |
 | Samsung Remote Control | https://github.com/kdschlosser/samsungctl |
-| Sony TV remote control over Wifi - 1 | https://shop.kindermann.de/erp/KCO/avs/3/3005/3005000168/01_Anleitungen+Doku/Steuerungsprotokoll_1.pdf |
+| Sony TV remote control over Wifi - 1 | [https://shop.kindermann.de/.../01_Anleitungen+Doku/Steuerungsprotokoll_1.pdf](https://shop.kindermann.de/erp/KCO/avs/3/3005/3005000168/01_Anleitungen+Doku/Steuerungsprotokoll_1.pdf) |
 | LG webOS TV remote control over Wifi - 1 | https://github.com/home-assistant-libs/aiowebostv |
 | LG webOS TV remote control over Wifi - 2 | https://github.com/supersaiyanmode/PyWebOSTV |
 
 
-#### Infrared (IR) protocols
+### Infrared (IR) protocols
 
-##### Samsung IR protocol
+#### Samsung IR protocol
 
 | URL |
 |-|
@@ -486,24 +488,24 @@ Battery type: LQ-S1
 | http://elektrolab.wz.cz/katalog/samsung_protocol.pdf |
 | https://github.com/alambrec/samsung-rc-keytable/blob/master/my_samsung |
 
-##### Philips RC5
+#### Philips RC5
 
 | URL |
 |-|
 | https://techdocs.altium.com/display/FPGA/Philips+RC5+Infrared+Transmission+Protocol |
 
-##### NEC
+#### NEC
 
 | URL |
 |-|
 | https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol |
 
-##### Database of Infrared codes
+#### Database of Infrared codes
 | URL |
 |-|
 | https://github.com/probonopd/irdb |
 
-#### GPS, maps
+### GPS, maps
 
 | Name | URL |
 |-|-|
@@ -521,7 +523,7 @@ Battery type: LQ-S1
 | Google Maps Route - encoded polyline decoder | https://github.com/geodav-tech/decode-google-maps-polyline/blob/master/polyline_decoder.py |
 
 
-#### QR codes
+### QR codes
 
 | Name | URL |
 |-|-|
@@ -529,7 +531,7 @@ Battery type: LQ-S1
 | QR code generator | https://github.com/ricmoo/QRCode |
 
 
-#### Network - socket, HTTP/2, etc...
+### Network - socket, HTTP/2, etc...
 
 | Name | URL |
 |-|-|
@@ -539,7 +541,7 @@ Battery type: LQ-S1
 | FTP | https://github.com/robert-hh/FTP-Server-for-ESP8266-ESP32-and-PYBD |
 | Simple NodeJS HTTP2 static server | https://dexecure.com/blog/how-to-create-http2-static-file-server-nodejs-with-examples |
 
-#### Single-file libraries, awesome collections
+### Single-file libraries, awesome collections
 
 | Name | URL |
 |-|-|
@@ -550,7 +552,7 @@ Battery type: LQ-S1
 | Single file libraries for C/C++ | https://github.com/yui0/slibs |
 | A curated list of awesome header-only C++ libraries | https://github.com/p-ranav/awesome-hpp |
 
-#### Others
+### Others
 
 | Name | URL |
 |-|-|
@@ -564,7 +566,7 @@ Battery type: LQ-S1
 | CBOR native module | https://github.com/dmazzella/ucbor |
 
 
-#### Others - MicroPython
+### Others - MicroPython
 
 | Name | Url |
 |-|-|
