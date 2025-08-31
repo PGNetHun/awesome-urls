@@ -610,7 +610,11 @@ Battery type: LQ-S1
 | Name | URL |
 |-|-|
 | HTTP2 partial pure Python implementation | https://github.com/Chaosed0/http2py |
+| Pure-Python HTTP/2 protocol implementation | https://github.com/python-hyper/h2 |
+| HTTP/2 for Python (no longer maintained) | https://github.com/python-hyper/hyper |
 | HTTP2 library | https://github.com/tokers/requests-http2-adapter/tree/master/http2_adapter |
+| fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2 | https://github.com/encode/httpx |
+| Small, fast HTTP client library for Python | https://github.com/httplib2/httplib2 |
 | A small async DNS client for MicroPython | https://github.com/vshymanskyy/aiodns |
 | FTP | https://github.com/robert-hh/FTP-Server-for-ESP8266-ESP32-and-PYBD |
 | Simple NodeJS HTTP2 static server | https://dexecure.com/blog/how-to-create-http2-static-file-server-nodejs-with-examples |
@@ -623,7 +627,19 @@ Battery type: LQ-S1
 | Awesome single file libs | https://github.com/r-lyeh/single_file_libs |
 | Single file libraries for C/C++ | https://github.com/yui0/slibs |
 | A curated list of awesome header-only C++ libraries | https://github.com/p-ranav/awesome-hpp |
-| Awesome MicroPython resources, libraries | https://github.com/mcauser/awesome-micropython |
+| Awesome MicroPython | https://github.com/mcauser/awesome-micropython |
+| Awesome MicroPython | https://github.com/pfalcon/awesome-micropython |
+| Awesome CircuitPython | https://github.com/adafruit/awesome-circuitpython |
+| Awesome CircuitPython libraries | [https://github.com/adafruit/.../circuitpython_library_list.md](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/blob/master/circuitpython_library_list.md) |
+| Awesome Embedded | https://github.com/nhivp/Awesome-Embedded |
+| Awesome Embedded | https://github.com/memfault/awesome-embedded |
+| Awesome Embedded | https://github.com/Mahmod/Awesome-Embedded |
+| Awesome Embedded Systems | https://github.com/embedded-boston/awesome-embedded-systems |
+| Awesome Embedded Software | https://github.com/iDoka/awesome-embedded-software |
+| Awesome Electronics Engineering | https://github.com/SergioGasquez/awesome-electronic-engineering |
+| Awesome Python | https://github.com/vinta/awesome-python |
+| Awesome C++ | https://github.com/fffaraz/awesome-cpp |
+
 
 ### Others
 
@@ -637,6 +653,12 @@ Battery type: LQ-S1
 | Image rotation with Python example (three shears) | https://gautamnagrawal.medium.com/rotating-image-by-any-angle-shear-transformation-using-only-numpy-d28d16eb5076 |
 | CBOR (replacement for JSON, similar to MessagePack) | https://github.com/onetonfoot/micropython-cbor |
 | CBOR native module | https://github.com/dmazzella/ucbor |
+| A little fail-safe filesystem designed for microcontrollers | https://github.com/littlefs-project/littlefs |
+| uTensor - TinyML AI inference library | https://github.com/uTensor/uTensor |
+| Tiny neural network library for Microcontrollers | https://github.com/mit-han-lab/tinyengine |
+| Machine Learning inference engine for Microcontrollers and Embedded devices | https://github.com/emlearn/emlearn |
+| ext2/ext3/ext4 filesystem library for microcontrollers | https://github.com/gkostka/lwext4 |
+| ESP32 NAT Router Extended | https://github.com/dchristl/esp32_nat_router_extended |
 
 
 ### Others - MicroPython
