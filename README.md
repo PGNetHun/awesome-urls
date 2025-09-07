@@ -5,7 +5,12 @@
 * **stb single-file public domain libraries for C/C++**: https://github.com/nothings/stb
 * **Awesome single file libs**: https://github.com/r-lyeh/single_file_libs
 * **Single file libraries for C/C++**: https://github.com/yui0/slibs
+* **sts public domain single file libraries**: https://github.com/kieselsteini/sts
 * **A curated list of awesome header-only C++ libraries**: https://github.com/p-ranav/awesome-hpp
+* **Links to stuff that looks useful**: https://github.com/floooh/bookmarks
+* **Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games**: https://github.com/RandyGaul/cute_headers
+* **Single-file public domain libraries for C/C++**: https://github.com/mattiasgustavsson/libs
+* **minimal cross-platform standalone C headers**: https://github.com/floooh/sokol
 * **Awesome MicroPython**: https://github.com/mcauser/awesome-micropython
 * **Awesome MicroPython**: https://github.com/pfalcon/awesome-micropython
 * **Awesome CircuitPython**: https://github.com/adafruit/awesome-circuitpython
@@ -18,6 +23,7 @@
 * **Awesome Electronics Engineering**: https://github.com/SergioGasquez/awesome-electronic-engineering
 * **Awesome Python**: https://github.com/vinta/awesome-python
 * **Awesome C++**: https://github.com/fffaraz/awesome-cpp
+* **Awesome C**: https://github.com/oz123/awesome-c
 * **Awesome single-file libraries**: https://github.com/yui0/slibs
 * **Awesome WebAssembly**: https://github.com/vshymanskyy/awesome-wasm-tools
 * **Awesome MCP servers (AI)**: https://github.com/punkpeye/awesome-mcp-servers
@@ -81,10 +87,15 @@
 * **BMA423 driver**: https://github.com/lewisxhe/BMA423_Library
 * **BMA423 driver**: https://github.com/BoschSensortec/BMA423-Sensor-API
 * **BMA423 driver (smallest, not complete)**: https://github.com/antirez/bma423-pure-mp
+* **Pure MicroPython Bosch BME680 sensor driver**: https://github.com/antirez/bme680-pure-mp
 * **ESP32 Himem PSRAM block device driver**: https://github.com/ondiiik/micropython-espboards/blob/master/ports/esp32/boards/TWATCH_2020/drivers/himem.c
 * **High Level PSRAM and HIMEM Data Structures for ESP32**: https://github.com/pschatzmann/esp32-psram
 * **MicroPython I2C driver for MPU9250 9-axis motion tracking device**: https://github.com/tuupola/micropython-mpu9250
 * **MicroPython sync/async drivers for VS1053b**: https://github.com/peterhinch/micropython-vs1053
+* **Simple driver for FT6x06 capacitive touch sensor in pure Python**: https://github.com/antirez/micropython-ft6x06
+* **UC8151 / IL0373 MicroPython e-paper display driver**: https://github.com/antirez/uc8151_micropython
+* **ST7789 Driver for esp-idf**: https://github.com/nopnop2002/esp-idf-st7789
+* **SPI TFT and XPT2046 touch screen controller driver for esp-idf**: https://github.com/nopnop2002/esp-idf-ili9340
 
 
 ### Bluetooth
@@ -114,6 +125,7 @@
 
 ### Math
 
+* **A numpy-like fast vector module for micropython**: https://github.com/v923z/micropython-ulab
 * **Very fast "FFT-replacement"**: https://iquilezles.org/articles/sincos
 * **Vanilla radix-2 FFT**: https://github.com/pschatzmann/esp32-fft
 * **Simple, Minimalistic, Fixed-point in-place Fast Fourier Transform**: https://github.com/yui0/slibs/blob/master/ifft.h
@@ -147,6 +159,8 @@
 * **3D raycasting**: https://gitlab.com/drummyfish/raycastlib
 * **3D software render engine**: https://github.com/viteo/small3dlib
 * **3D software render engine for embedded devices**: https://github.com/fededevi/pingo
+* **A 3D Graphics Engine for the ESP32**: https://github.com/Hykudoru/Pescado-Engine-Embedded-ESP32S3
+* **tgx - a tiny 2D/3D graphics library**: https://github.com/vindar/tgx
 * **3D software renderer (fixed point math)**: https://github.com/Ilya3point999K/RAL
 * **3D Software Renderer written in C99, Low-Level, 8-bit Colored**: https://github.com/LukasBanana/PicoRenderer
 * **3D rendering of Planet Earth rotation for GBA**: https://github.com/supercerealoso/GBA-3D-Earth
@@ -157,7 +171,7 @@
 * **3D raycasting tutorial 3 (Wolfenstein-like)**: https://lodev.org/cgtutor/raycasting3.html
 * **3D raycasting tutorial 4 (Wolfenstein-like)**: https://lodev.org/cgtutor/raycasting4.html
 * **3D raycast example**: https://github.com/mattiasgustavsson/dos-like/blob/main/source/raycast.c
-* **TinyGL - subset of OpenGL**: https://github.com/deeyi2000/TinyGL
+* **TinyGL : a Small, Free and Fast Subset of OpenGL**: https://github.com/deeyi2000/TinyGL
 * **Software-rendered OpenGL ES**: https://github.com/lunixbochs/tinygles
 * **TinyGL - a Small, Free and Fast Subset of OpenGL***: https://github.com/ska80/tinygl
 * **Single header fixed point software renderer**: https://github.com/Ilya3point999K/RAL
@@ -187,6 +201,7 @@
 * **A full featured chess engine designed to fit in an embedded environment, using less than 2K of RAM!**: https://github.com/ripred/MicroChess
 * **MicroPython Sunfish Chess Engine with API**: https://github.com/peterhinch/micropython-sunfish
 * **Apple BLE AirTag-clone**: https://github.com/seemoo-lab/openhaystack
+* **Examples using aioble to interact with iTag BLE keychain tags**: https://github.com/mcauser/micropython-aioble-itag
 
 
 ### Game examples
@@ -195,6 +210,7 @@
 * **DOOM style game in Python**: https://github.com/StanislavPetrovV/DOOM-style-Game
 * **DOOM level viewer in Python**: https://github.com/StanislavPetrovV/DOOM-Level-Viewer
 * **DOOM Clone. 3D Engine using Raylib and Binary Space Partitioning**: https://github.com/StanislavPetrovV/DOOM-Clone
+* **Pure DOOM - Single Header Doom Source Port**: https://github.com/Daivuk/PureDOOM
 * **Tetris in Python**: https://github.com/StanislavPetrovV/Tetris
 
 
@@ -247,6 +263,7 @@
 
 * **TinyVG software development kit**: https://github.com/TinyVG/sdk
 * **Thor Vector Graphics is a lightweight portable library**: https://github.com/thorvg/thorvg
+* **Lion Vector Graphics**: https://github.com/lieff/lvg
 * **Image arithmetic tutorial**: https://lodev.org/cgtutor/imagearithmetic.html
 * **Image filtering tutorial**: https://lodev.org/cgtutor/filtering.html
 * **Line clipping tutorial**: https://lodev.org/cgtutor/lineclipping.html
@@ -360,6 +377,7 @@
 * **MicroPython I2S sound**: http://www.ece.tufts.edu/en/1EK/textbook/sec_i2s.html
 * **MicroPython I2S sound**: https://github.com/lemariva/uPyM5Echo/blob/master/main.py
 * **MicroPython I2S sound**: https://github.com/lemariva/micropython-core2/issues/6
+* **Espressif Advanced Development Framework for Multimedia Applications**: https://github.com/espressif/esp-adf
 * **Codec2 - low bit rate speech codec by David Rowe**: https://github.com/drowe67/codec2
 * **Codec2 - development repo**: https://github.com/drowe67/codec2-dev
 * **Codec2 - ESP32 implementation**: https://github.com/sh123/esp32_codec2_arduino
@@ -369,6 +387,7 @@
 * **SBC and aptX**: https://habr.com/en/articles/456182
 * **SBC (Bluetooth audio) decoder**: https://github.com/tieto/sbc-decoder
 * **SBC (Bluetooth audio) decoder**: https://github.com/pschatzmann/arduino-libsbc
+* **Bluetooth low-complexity, subband codec (SBC) library**: https://github.com/nefarius/libsbc
 * **aptX implementation**: https://github.com/pali/libopenaptx
 * **aptX (Bluetooth audio) decoder**: https://github.com/iamthehorker/libfreeaptx
 * **LC3 codec implementation**: https://github.com/zephyrproject-rtos/liblc3codec
@@ -383,7 +402,10 @@
 * **Speex voice codec mirror**: https://github.com/xiph/speex
 * **GSM 06.10 implementation**: https://github.com/timothytylee/libgsm
 * **3GPP Narrowband and Wideband AMR Audio Codecs**: https://github.com/pschatzmann/codec-amr
+* **3GPP TS 26.073 – ANSI-C code for the Adaptive Multi Rate (AMR) speech codec**: https://github.com/tanuki-no/libamr
 * **G.722 codec**: https://github.com/pschatzmann/arduino-libg722
+* **ITU G.722 codec**: https://github.com/sippy/libg722
+* **TETRA speech codec**: https://github.com/outerplane/tetra-codec
 * **An ANSI C library for encoding/decoding using the A-law**: https://github.com/andyye1999/pcm-g711-A-law
 * **Tramsmit VoIP G711 with ESP8266 and ARM Cortex M4/M7**: https://github.com/ericsonj/TransmitVoip
 * **A standalone library of the Fraunhofer FDK AAC code from Android**: https://github.com/mstorsjo/fdk-aac
@@ -399,6 +421,8 @@
 * **Simple audio resampler targeting embedded systems**: https://github.com/dbry/audio-resampler
 * **Simple, Minimalistic, WMA decoder based on libwma**: https://github.com/yui0/slibs/blob/master/uwma.h
 * **Simple, Minimalistic, AAC decoder**: https://github.com/yui0/slibs/blob/master/uaac.h
+* **Python Parser for Ring Tone Text Transfer Language (RTTTL)**: https://github.com/dhylands/upy-rtttl
+* **Portable ANSI C audio mixer for games**: https://github.com/rxi/cmixer
 
 #### QOA
 
@@ -504,6 +528,9 @@
 * **An embedded-friendly, adjusted-binary LZW compressor / decompressor**: https://github.com/dbry/lzw-ab
 * **miniz: Single C source file zlib-replacement library**: https://github.com/richgel999/miniz
 * **Lossless data compression codec with LZMA-like ratios but 1.5x-8x faster decompression speed, C/C++**: https://github.com/richgel999/lzham_codec
+* **Small strings compression library**: https://github.com/antirez/smaz
+* **SMAZ2: compression for very short messages for LoRa and embedded devices**: https://github.com/antirez/smaz2
+* **The Quite OK Package Format**: https://github.com/phoboslab/qop
 
 
 ### Remote control
@@ -559,7 +586,7 @@
 
 ### GPS, maps
 
-* **GPS**: https://github.com/inmcm/micropyGPS
+* **Full Featured GPS NMEA-0183 sentence parser**: https://github.com/inmcm/micropyGPS
 * **GPS async**: https://github.com/peterhinch/micropython-async/blob/master/v3/docs/GPS.md
 * **L76K GPS**: https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library/blob/master/examples/BasicUnit/TwatcV2Special/GPSDisplay/GPSDisplay.ino
 * **L76K GPS**: https://www.waveshare.com/wiki/L76K_GPS_Module
@@ -621,6 +648,7 @@
 * **MicroPython Libraries**: https://github.com/micropython/micropython-lib
 * **MicroPython Libraries**: https://github.com/pfalcon/pycopy-lib
 * **MicroPython stubs**: https://github.com/Josverl/micropython-stubs
+* **Generate and maintain MicroPython stubs**: https://github.com/Josverl/micropython-stubber
 * **MicroPython usermod C modules**: https://micropython-usermod.readthedocs.io/en/latest/index.html
 * **ViperIDE - MicroPython online IDE**: https://github.com/vshymanskyy/ViperIDE
 * **Asynchronous programming in MicroPython**: https://github.com/peterhinch/micropython-async/blob/master/v3/README.md
@@ -636,3 +664,6 @@
 * **A lightweight MicroPython GUI library for display drivers based on framebuf class**: https://github.com/peterhinch/micropython-nano-gui
 * **Compile WebAssembly to native MicroPython modules**: https://github.com/vshymanskyy/wasm2mpy
 * **Python asyncio IMAP4rev1 client library**: https://github.com/iroco-co/aioimaplib
+* **micrOS - mini asynchronous automation OS for DIY projects**: https://github.com/BxNxM/micrOS
+* **The impossibly small web framework for Python and MicroPython**: https://github.com/miguelgrinberg/microdot
+* **Assorted code ideas, unofficial MP FAQ**: https://github.com/peterhinch/micropython-samples
