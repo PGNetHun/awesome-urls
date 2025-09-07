@@ -147,7 +147,7 @@
 * **Tutorial about height map noise generation**: https://www.redblobgames.com/maps/terrain-from-noise
 * **Maze generator**: https://weblog.jamisbuck.org/2011/1/27/maze-generation-growing-tree-algorithm
 * **Maze generator (single-header C file)**: https://github.com/blastbay/mazelib/blob/master/mazelib.h
-* **Path finder and A* solver**: https://github.com/leethomason/MicroPather
+* **Path finder and A\* solver**: https://github.com/leethomason/MicroPather
 
 
 ### 3D
