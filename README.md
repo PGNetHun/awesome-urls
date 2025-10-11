@@ -297,6 +297,7 @@
 * **FUIF - Free Universal Image Format**: https://github.com/cloudinary/fuif
 * **Wavelet image compression**: https://iquilezles.org/articles/wavelet
 * **RPK - Fast, lossless image compression format**: https://github.com/quintopia/RPK
+* **QB3 - Extremely Fast Lossless Image Compression**: https://github.com/lucianpls/QB3
 * **SFALIC - Simple Fast and Adaptive Lossless Image Compression algorithm**: https://github.com/bigfug/fugio-sfalic
 * **SQZ - Low complexity, scalable lossless and lossy image compression library**: https://github.com/MarcioPais/SQZ
 * **Fox - Lossless image format**: https://github.com/fencl/fox
