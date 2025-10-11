@@ -640,6 +640,7 @@
 * **Translates WebAssembly modules to portable C**: https://github.com/turbolent/w2c2
 * **Convert WebAssembly files to C source and header**: https://github.com/WebAssembly/wabt/tree/main/wasm2c
 * **File system and archive abstraction library in C**: https://github.com/mackron/fs
+* **Online C to assembly compiler (x86, ESP32, Arm...)**: https://godbolt.org/
 
 
 ### Others - MicroPython
